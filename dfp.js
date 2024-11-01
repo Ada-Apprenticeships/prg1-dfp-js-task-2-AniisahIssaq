@@ -5,7 +5,6 @@ function parseFile (inData, outData, delimiter = ';') {
 
   // checks if the inputfile exists, if it doesn't, returns -1
    if (!fs.existsSync(inData)) return -1;
-
    // if an outputfile already exists, it is deleted
    if (fs.existsSync(outData)) fs.unlinkSync(outData);
    // initialise record counter 
