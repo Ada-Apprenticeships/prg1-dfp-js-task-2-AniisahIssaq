@@ -35,7 +35,7 @@ parseFile('./datafile.csv','./outputfile.csv')
 module.exports ={
    parseFile,
 }
-// Leave this code here for the automated tests
+// Leave this code here for the automated tests.
 module.exports ={
   parseFile,
 }
